@@ -1,8 +1,8 @@
 import processing.core.PApplet;
 
 /**
- * Main class to execute sketch
- * @author 
+ * using loop patterns to draw sequences of object
+ * @author:Joshua Lo
  *
  */
 class Main {
@@ -11,6 +11,7 @@ class Main {
     String[] processingArgs = {"MySketch"};
 	  Sketch mySketch = new Sketch();
 	  PApplet.runSketch(processingArgs, mySketch);
+    
   }
   
 }
